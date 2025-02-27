@@ -70,15 +70,14 @@ Generative AI models from platforms like Hugging Face or OpenAI.
 
 IoT platforms like Arduino IDE or PlatformIO.
 
-**Performance and Innovation
-**Performance:
+**Performance and Innovation**
 
 The system is optimized to run on regular processors, ensuring accessibility for users without high-end hardware.
 
 Performance metrics (e.g., latency, accuracy) are documented for further improvement.
 
-**Innovation Pathways:
-**
+**Innovation Pathways:**
+
 This project serves as a foundation for further innovation in generative AI and IoT pipelines.
 
 Peers at Illinois State University and beyond can build upon this work using open-source models and platforms.
