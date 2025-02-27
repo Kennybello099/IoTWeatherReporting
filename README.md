@@ -92,8 +92,13 @@ Libraries: Install required libraries for sensor communication and TTS ( DHT11, 
 
 
 **References**
+
 https://docs.arduino.cc/
+
 https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
+
 https://pyserial.readthedocs.io/en/latest/
+
 https://www.w3schools.in/python/examples/convert-text-to-speech-in-python-with-pyttsx3
+
 https://www.circuitgeeks.com/arduino-dht11-and-dht22-sensor-tutorial/#google_vignette
