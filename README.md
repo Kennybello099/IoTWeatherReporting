@@ -1,7 +1,7 @@
 # IoTWeatherReporting
 
 Smart Home Accessibility with Generative AI and IoT
-This project leverages generative AI models and Internet of Things (IoT) tools to improve the accessibility of smart home applications for individuals with varying levels of visual abilities. By integrating a DHT11 sensor for temperature and humidity data collection and a generative Text-to-Speech (TTS) model, this system provides real-time environmental feedback without the need for additional screen-reading tools. The project also includes a web interface for real-time monitoring and data visualization, making it accessible to users worldwide.
+This project leverages generative AI models and Internet of Things (IoT) tools to improve the accessibility of smart home applications for individuals with varying levels of visual abilities. By integrating a DHT11 sensor for temperature and humidity data collection and a generative Text-to-Speech (TTS) model, this system provides real-time environmental feedback without the need for additional screen-reading tools. The project also includes a real-time monitoring and data visualization, making it accessible to users worldwide.
 
 **Features**
 IoT Sensor Integration:
@@ -25,30 +25,48 @@ Open-Source and Scalable:
 Built using open-source tools and platforms, enabling further innovation and customization.
 
 **How It Works**
-Data Collection:
 
-The DHT11 sensor collects temperature and humidity data.
+Connect the DHT11 Sensor:
 
-Data is transmitted to a computer via serial communication.
+Connect VCC to 3.3V or 5V.
 
-**Data Processing:**
+Connect GND to ground.
 
-The generative TTS model processes the data and converts it into spoken feedback.
+Connect Data to a digital pin on the microcontroller.
 
-Users receive real-time audio updates about their environment.
+Add a pull-up resistor (4.7kΩ to 10kΩ) between Data and VCC.
 
-**Web Interface:**
+Install Libraries:
 
-Sensor data is recorded and made accessible via a web-based dashboard.
+For Arduino: Install the DHT library and a TTS library (e.g., Adafruit TTS).
 
-Users can monitor and visualize data in real time.
+For Raspberry Pi: Install Adafruit_DHT and gTTS (or pyttsx3).
+
+Write Code to Read Data:
+
+Use the DHT library to read temperature and humidity.
+
+Print the data to the Serial Monitor or store it in variables.
+
+Add Text-to-Speech (TTS):
+
+For Arduino: Use a TTS module or send data to a computer for TTS.
+
+For Raspberry Pi: Use gTTS or pyttsx3 to convert sensor data into speech.
+
+Test the System:
+
+Upload the code to the microcontroller or run the Python script.
+
+Verify that the DHT11 collects data and the TTS vocalizes the readings.
+
 
 **Technologies Used**
-Hardware:
+**Hardware**:
 
 DHT11 Temperature and Humidity Sensor
 
-Microcontroller (e.g., Arduino, ESP8266, or Raspberry Pi)
+Microcontroller ( Arduino)
 
 **Software:**
 
