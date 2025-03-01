@@ -16,12 +16,6 @@ Utilizes Edge Text-to-Speech (TTS) to provide real-time audio feedback in multip
 
 Enhances accessibility for users with visual impairments by eliminating the need for screen-reading tools.
 
-**Web Interface:**
-
-Records and visualizes sensor data in real time.
-
-Provides a user-friendly dashboard for monitoring environmental conditions.
-
 **Cross-Language Support:**
 
 The TTS model supports multiple spoken languages, making the system versatile for global users.
