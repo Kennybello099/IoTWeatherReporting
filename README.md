@@ -114,3 +114,7 @@ https://pyserial.readthedocs.io/en/latest/
 https://www.w3schools.in/python/examples/convert-text-to-speech-in-python-with-pyttsx3
 
 https://www.circuitgeeks.com/arduino-dht11-and-dht22-sensor-tutorial/#google_vignette
+
+
+**Reference to my video on my project**
+https://www.youtube.com/watch?v=tbCKUPfGdfM
