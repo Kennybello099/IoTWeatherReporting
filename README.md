@@ -38,7 +38,7 @@ Add a pull-up resistor (4.7kΩ to 10kΩ) between Data and VCC.
 
 Install Libraries:
 
-For Arduino: Install the DHT library and a TTS library (e.g., Adafruit TTS).
+For Arduino: Install the DHT library and a TTS library (Adafruit TTS).
 
 For Raspberry Pi: Install Adafruit_DHT and gTTS (or pyttsx3).
 
@@ -60,8 +60,8 @@ Upload the code to the microcontroller or run the Python script.
 
 Verify that the DHT11 collects data and the TTS vocalizes the readings.
 
-
 **Technologies Used**
+
 **Hardware**:
 
 DHT11 Temperature and Humidity Sensor
